@@ -3,5 +3,5 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  require'lspconfig'.tsserver.setup{}
+  require('lspconfig').tsserver.setup{}
 }
