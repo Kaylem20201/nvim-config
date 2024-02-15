@@ -212,6 +212,9 @@ require('lazy').setup({
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Set tab size
+vim.o.tabstop = 4
+
 -- Set spell file
 vim.o.spellfile = '/home/kaylem/.config/nvim/spell/drafts.en.utf-8.add'
 
